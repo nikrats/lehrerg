@@ -1,0 +1,135 @@
+MatheArena
+
+https://www.npmjs.com/package/ng-icon-sidebar
+https://www.devwares.com/docs/contrast/angular/navigation/sidebar/
+https://ivywalobwa.medium.com/build-a-bootstrap-4-navbar-in-angular-8-with-angular-fontawesome-icons-72923928f89f
+https://fontawesomeicons.com/bootstrap/icons/menu-button
+
+
+angular-fontawesome@0.5.0
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+FontAwesomeModule
+
+"node_modules/jquery/dist/jquery.min.js",
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+Beschreibung Angular:
+
+Setup:
+node install: https://nodejs.org/en/download/
+donwload: 16.3.0 and install
+node -v
+
+install angular CLI
+npm install -g @angular/cli
+
+generate new project:
+ng new helloworld
+
+npm run start    -> ng serve
+
+Visual Studio Code: + GIT https://www.youtube.com/watch?v=i_23KUAEtUM
+Command pallet : shift+crtl+p
+
+U .. untracked
+M .. modified
+A .. Added
+
+crt+alt+t -> öffnet terminal
+
+app.component.hmtl
+
+bannana in a box
+
+structural directives:
+*ngFor=""
+{{ }}
+
+attribute directives:
+[value]
+
+// neue Komponente anlegen
+ng g component Team
+
+team\team.component.html
+
+selector name: app-team
+
+<app-team>
+
+pass data to component
+// decorator
+@Input team = []
+
+Pipes:
+{{ member | titlecase }}
+
+// build app to start local without server
+ng build --prod --base-href=
+
+Install d3.js:  install D3 and the D3 type definitions from npm. Type definitions will allow TypeScript to apply type hints to the external D3 code.
+npm install d3 --save
+npm install @types/d3 --save-dev
+
+create new component:
+ng g component bar
+
+
+npm install bootstrap --save
+
+
+concept of enter, exit and update in d3:
+
+
+
+
+https://sinequa.github.io/sba-angular/tipstricks/d3-angular.html
+
+https://itnext.io/add-interactivity-to-your-charts-in-angular-2-applications-with-d3-js-78fd3718e6fb
+
+https://embed.plnkr.co/ygruVV/
+
+https://observablehq.com/@d3/d3-bin
+
+http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774
+
+
+https://entwickler.de/javascript/d3js-fur-engagierte-angular-entwickler-bubble-charts-erstellen
+
+hoisting
+IIFE immediately invoked function expression (function() {})();
+
+
+global scope
+function scope
+
+() => {} anonymous func
+
+promises
+
+async await
+
+
+Introduction do d3
+ d3.select  choose some HTML or SVG elements,  select the first element that matches the specified selector string
+ 
+ https://www.d3indepth.com/selections/
+ 
+ 
+ append() - Appends a new element with the specified name as the last child of each element in the current selection, returning a new selection containing the appended elements.
+ 
+
+
+
+NGX Charts
+https://swimlane.github.io/ngx-charts/#/ngx-charts/line-chart
+
+
+
+https://www.javatpoint.com/bootstrap-modal-popup-in-angular-9-8
+https://www.learmoreseekmore.com/2022/01/usage-of-bootstrap-v5-modal-in-angularv13.html
+https://www.geeksforgeeks.org/how-to-make-a-bootstrap-modal-popup-in-angular-9-8/
+
+
+
